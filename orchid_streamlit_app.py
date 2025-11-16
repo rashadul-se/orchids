@@ -12,7 +12,7 @@ from nltk.stem import WordNetLemmatizer
 
 # Page configuration
 st.set_page_config(
-    page_title="Orchid Database Search",
+    page_title="Finding Orchids that's suit you!",
     page_icon="🌸",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -572,7 +572,7 @@ st.markdown('<div class="main-header">🌸 Orchid Database Search 🌸</div>', u
 # Sidebar
 with st.sidebar:
     st.image("https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f33a.png", width=100)
-    st.title("Database Management")
+    st.title("Load or Refresh")
     
     if st.session_state.data_loaded:
         st.success("✅ Database loaded!")
